@@ -1,0 +1,29 @@
+.tick {
+    display: inline;
+    width: 10%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.skill {
+    margin: 20px 0;
+    width: 50%;
+    /* height: 80%; */
+    /* text-align: center; */
+    display: inline-block;
+    padding: 15px 10px;
+    border: 2px solid #3a3a40;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.skill:hover {
+    box-shadow: 2px 2px 10px #3a3a40;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 576px) {
+    .skill {
+        width: 85%;
+    }
+}
